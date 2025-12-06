@@ -191,7 +191,6 @@ class ProfileScreen extends StatelessWidget {
               margin: EdgeInsets.symmetric(horizontal: screenWidth * 0.02),
               child: ElevatedButton.icon(
                 onPressed: () {
-                  // TODO: Implement logout functionality
                   context.go(AppRoutes.signIn);
                 },
                 icon: Icon(
@@ -219,7 +218,7 @@ class ProfileScreen extends StatelessWidget {
               ),
             ),
 
-            SizedBox(height: screenHeight * 0.07),
+            SizedBox(height: screenHeight * 0.1),
           ],
         ),
       ),
