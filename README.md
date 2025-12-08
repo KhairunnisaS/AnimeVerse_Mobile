@@ -52,7 +52,7 @@ All favorites are stored in Firebase Firestore and synchronized per user.
 
 ## Demo Video
 
-**Video Link:** [Tonton Demo Video AnimeVerse di Sini](https://drive.google.com/drive/folders/175RNqozS1n9vdHJwjq8fFnOe_0lgk_9A?usp=drive_link)
+**Video Link:** [Watch the AnimeVerse Demo Video Here](https://drive.google.com/drive/folders/175RNqozS1n9vdHJwjq8fFnOe_0lgk_9A?usp=drive_link)
 
 ---
 
@@ -85,7 +85,7 @@ All favorites are stored in Firebase Firestore and synchronized per user.
 
 1. Clone the repository
    ```bash
-   git clone https://github.com/<your-username>/animeverse.git
+   git clone https://github.com/KhairunnisaS/AnimeVerse_Mobile.git
    cd animeverse
 2. Install dependencies and run the app
     ```bash
