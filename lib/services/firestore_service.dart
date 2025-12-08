@@ -15,7 +15,7 @@ class FirestoreService {
         .map((snapshot) {
       return snapshot.docs.map((doc) {
         // Mengubah data JSON dari Firestore kembali menjadi object Anime
-        return Anime.fromJson(doc.data());
+        return Anime.fromFavoritesJson(doc.data());
       }).toList();
     });
   }

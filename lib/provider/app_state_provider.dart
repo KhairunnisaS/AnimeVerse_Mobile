@@ -45,7 +45,7 @@ class AppStateProvider extends ChangeNotifier {
   String get favoriteSearchQuery => _favoriteSearchQuery;
 
   AppStateProvider() {
-    _initAuthListener;
+    _initAuthListener();
     fetchTopAnime();
   }
 
@@ -54,7 +54,7 @@ class AppStateProvider extends ChangeNotifier {
       if (user != null) {
         _subscribeToFavorites(user.uid);
       } else {
-        unsubscribeFromFavorites;
+        _unsubscribeFromFavorites();
       }
     });
   }
@@ -67,7 +67,7 @@ class AppStateProvider extends ChangeNotifier {
     });
   }
 
-  void _unsubscribeFromFavorites(String userId) {
+  void _unsubscribeFromFavorites() {
     _favoritesSubscription?.cancel();
     _favorites = [];
     notifyListeners();
@@ -179,8 +179,6 @@ class AppStateProvider extends ChangeNotifier {
   }
 
   int get favoritesCount => _favorites.length;
-
-  get unsubscribeFromFavorites => null;
 
   void setSelectedGenre(String genre) {
     _selectedGenre = genre;
