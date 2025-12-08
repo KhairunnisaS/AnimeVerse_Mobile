@@ -8,9 +8,9 @@ Designed with a clean interface and simple flow, AnimeVerse demonstrates essenti
 
 ## Application Overview
 
-- **Application Name:** AnimeVerse  
-- **Platform:** Flutter  
-- **Category:** Anime Browser & Favorite Collection  
+- **Application Name:** AnimeVerse
+- **Platform:** Flutter
+- **Category:** Anime Browser & Favorite Collection
 - **Purpose:** Provide a smooth and intuitive experience to browse anime, view details, search titles, filter by genres, and manage user-specific favorites.
 
 ---
@@ -23,31 +23,32 @@ All favorites are stored in Firebase Firestore and synchronized per user.
 
 **Main Screens Included:**
 
-- Sign In / Sign Up  
-- Home (Anime List with pagination)  
-- Search  
-- Genre Filter  
-- Anime Detail  
-- Favorites  
-- Profile & Logout  
-- Forgot Password  
-- Change Password  
+- Sign In / Sign Up
+- Home (Anime List with pagination)
+- Search
+- Genre Filter
+- Anime Detail
+- Favorites
+- Profile & Logout
+- Forgot Password
+- Change Password
 
 ---
 
 ## Screenshots
 
-(Insert your screenshots in the folder and into this table)
+| Splash | Sign Up | Sign In |
+|--------|---------|---------|
+| ![](assets/screenshots/splash.png) | ![](assets/screenshots/signup.png) | ![](assets/screenshots/signin.png) |
 
-| Sign In | Home | Detail |
-|--------|------|--------|
-| ![](assets/screenshots/signin.png) | ![](assets/screenshots/home.png) | ![](assets/screenshots/detail.png) |
+| Home | Detail | Favorites |
+|------|--------|-----------|
+| ![](assets/screenshots/home.png) | ![](assets/screenshots/detail.png) | ![](assets/screenshots/favorites.png) |
 
-| Favorites | Search | Profile |
-|-----------|--------|---------|
-| ![](assets/screenshots/favorites.png) | ![](assets/screenshots/search.png) | ![](assets/screenshots/profile.png) |
+| Search | Genre | Profile |
+|--------|--------|---------|
+| ![](assets/screenshots/search.png) | ![](assets/screenshots/genre.png) | ![](assets/screenshots/profile.png) |
 
----
 
 ## Demo Video
 
@@ -57,32 +58,32 @@ All favorites are stored in Firebase Firestore and synchronized per user.
 
 ## Features
 
-- Email & Google Authentication  
-- Anime browsing with pagination  
-- Search functionality  
-- Genre-based filtering  
-- Detailed anime information  
-- Cloud-based favorites (Firestore)  
-- Profile management & logout  
-- Reset and change password  
-- Clean and minimal UI design  
+- Email & Google Authentication
+- Anime browsing with pagination
+- Search functionality
+- Genre-based filtering
+- Detailed anime information
+- Cloud-based favorites (Firestore)
+- Profile management & logout
+- Reset and change password
+- Clean and minimal UI design
 
 ---
 
 ## Tech Stack
 
-- Flutter  
-- Dart  
-- Firebase Authentication  
-- Cloud Firestore  
-- Jikan API (MyAnimeList)  
-- Material Design  
+- Flutter
+- Dart
+- Firebase Authentication
+- Cloud Firestore
+- Jikan API (MyAnimeList)
+- Material Design
 
 ---
 
 ## How to Run & APK Release
 
-1. Clone the repository  
+1. Clone the repository
    ```bash
    git clone https://github.com/<your-username>/animeverse.git
    cd animeverse
